@@ -9,7 +9,7 @@ ts = TimeSeries(key=config.api_token)
 data, meta_data = ts.get_daily('GOOGL', outputsize='compact')
 
 endDate = datetime.now()
-startDate = endDate - timedelta(days=8) #Why 8 day? Because without today, and we need one more day.
+startDate = endDate - timedelta(days=8) #Why 8 day? Because without today`s day, and we need one more day.
 print("\n\nSTART DATE: " + str(startDate.strftime('%b %d, %Y'))+ "\n")
 
 
