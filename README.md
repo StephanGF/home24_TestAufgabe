@@ -18,7 +18,7 @@ You can close the terminal.
 Now let's set up my completed task. To do this, you can copy the code below into the terminal or download the archive directly.
 
 ```
-git clone StephanGF/home24_TestAufgabe
+git clone https://github.com/StephanGF/home24_TestAufgabe.git
 ```
 
 **After installing the files, you need to install the libraries used in my code, for this you need to open this folder in a terminal (you can do it with the command cd YOUR_PATH) and write the following command:**
